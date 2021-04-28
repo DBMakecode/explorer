@@ -391,7 +391,7 @@ Knight = sprites.create(img`
     `, SpriteKind.Player)
 tiles.placeOnRandomTile(Knight, assets.tile`myTile0`)
 scene.setBackgroundColor(7)
-tiles.setTilemap(tilemap`level1`)
+tiles.setTilemap(tilemap`level5`)
 controller.moveSprite(Knight)
 scene.cameraFollowSprite(Knight)
 Duck = sprites.create(img`
